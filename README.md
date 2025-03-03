@@ -1,6 +1,4 @@
 # solving-captchas-code-basic
-
-# Solving CAPTCHAs code examples
 [How to break a CAPTCHA system in 15 minutes with Machine Learning](https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-minutes-with-machine-learning-dbebb035a710)
 
 ## Installing
@@ -21,7 +19,7 @@ Let's install this library below
 
 Run:
 
-python3 extract_single_letters_from_captchas.py
+python extract_single_letters_from_captchas.py
 
 The results will be stored in the "extracted_letter_images" folder.
 
@@ -30,7 +28,7 @@ The results will be stored in the "extracted_letter_images" folder.
 
 Run:
 
-python3 train_model.py
+python train_model.py
 
 This will write out "captcha_model.hdf5" and "model_labels.dat"
 
@@ -39,4 +37,4 @@ This will write out "captcha_model.hdf5" and "model_labels.dat"
 
 Run: 
 
-python3 solve_captchas_with_model.py
+python solve_captchas_with_model.py

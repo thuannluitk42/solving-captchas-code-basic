@@ -38,3 +38,15 @@ This will write out "captcha_model.hdf5" and "model_labels.dat"
 Run: 
 
 python solve_captchas_with_model.py
+
+
+Summary of commands to run:
+pip3 install h5py
+pip install opencv-python
+pip install opencv-contrib-python
+pip3 install -r requirements.txt
+python extract_single_letters_from_captchas.py
+python train_model.py
+
+Final: run this command for detect example
+python solve_captchas_with_model.py
